@@ -1,0 +1,7 @@
+@import url(/src/App.css);
+
+.layout {
+  display: grid;
+  grid-auto-rows: auto;
+  min-height: 100vh;
+}

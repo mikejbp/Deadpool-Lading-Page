@@ -1,0 +1,11 @@
+@import url(/src/App.css);
+
+
+.dpLogo {
+  width: 4rem;
+  height: 4rem;
+  border: 5px;
+  border-style: solid;
+  border-color: inherit;
+}
+

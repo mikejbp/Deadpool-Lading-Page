@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+:root {
+    /* theme */
+    --dark-base: #282A3E;
+    --base: #2B2D42;
+    --slate: #c7c7ce;
+    --light-slate: #C7C7DB;
+    /* Branding */
+    --primary: #b71c1c;
+    --gradient: linear-gradient(109.8deg, #F6BE5F -6.35%, #FA9875 105.29%);
+    /* Typeface */
+    --font-headline: 'Lato', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    position: static;
+    background-color: #0f0f0f;
+    color: #fff;
+}

@@ -1,0 +1,64 @@
+@import url(/src/App.css);
+/* CSS Section One Start */
+.container {
+  background: url(../Assets/dark-mode.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 100%;
+
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+
+}
+
+.typography {
+  position: relative;
+  color: var(--slate);
+  text-align: justify;
+  padding: 9rem;
+  text-align: center;
+}
+/* CSS Section One End */
+
+/* CSS Section Two Start */
+.container-2 {
+  background: url(../Assets/dark-mode.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding: 3rem 0;
+  display: grid;
+  gap: 3rem 0rem;
+  grid-auto-rows: 30rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+}
+
+.card {
+  background: #dbd8d8;
+  padding: 0 0 8rem 0;
+  margin: 0 3.5rem 0;
+  width: 18rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+
+.card img {
+  border-radius: 0.5rem;
+  object-fit: fill;
+  
+}
+
+.typography-2 {
+  padding: 1rem;
+  text-align: justify;
+  font-variant: small-caps;
+  color: var(--dark-base);
+
+}
+
+/* CSS Section Two End */
+

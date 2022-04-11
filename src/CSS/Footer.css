@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+:root {
+    /* theme */
+    --dark-base: #282A3E;
+    --base: #2B2D42;
+    --slate: #c7c7ce;
+    --light-slate: #C7C7DB;
+    /* Branding */
+    --primary: #b71c1c;
+    --secondary: #cf3535;
+    --gradient: linear-gradient(109.8deg, #F6BE5F -6.35%, #FA9875 105.29%);
+    /* Typeface */
+    --font-headline: 'Lato', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+}
+
+/* .main-footer {
+  color: white;
+  background-color: var(--primary);
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  
+} */
