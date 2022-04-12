@@ -7,10 +7,8 @@ import SectionTwo from '../Components/Sections/SectionTwo'
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <SectionOne />
       <SectionTwo />
-      <Footer />
     </div>
   )
 }
